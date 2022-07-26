@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+  color: white;
+  background-color: #3967d7;
+  font-size: 25px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Editor{
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.Input{
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user_Input{
+  height: 75vh;
+  width: 100vh;
+  margin: 2%;
+  border: 2px solid #474647;
+  font-size: 20px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.user_Input:hover{
+  border: 4px solid #474647;
+  box-shadow: 5px 5px 15px 5px yellow;
+  font-size: 24px;
+}
+
+.Pro_Notes{
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.display_Pronotes{
+  background-color: #474647;
+  height: 85vh;
+  width: 70vh;
+  margin: 2%;
+  font-size: 20px;
+  box-shadow:  7px 7px 27px 7px black;
+  font-family: 'Source Sans Pro', sans-serif;
+  word-spacing: 7px;
+}
